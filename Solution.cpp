@@ -1,4 +1,4 @@
-//
+// //
 // Created by asus on 4/27/2020.
 //
 #include <iostream>
@@ -132,14 +132,4 @@ public:
     }
 };
 
-#include "primForMinBinaryTree.h"
 
-int main() {
-    int verNum, arcNum;
-    std::cin >> verNum >> arcNum;
-    primForMinBinaryTree s(verNum, arcNum);
-    s.creatAdjList();
-    s.prim();
-    std::cout << s.getMaxWeightInPrimTree();
-    return 0;
-}

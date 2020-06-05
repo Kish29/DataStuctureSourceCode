@@ -3,4 +3,6 @@ project(dataStructHomeworks)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(dataStructHomeworks Solution.cpp OrthogonalList.cpp OrthogonalList.h lettersCombination.cpp lettersCombination.h backTrackDFS.cpp backTrackDFS.h bfsForMinPath.cpp bfsForMinPath.h primForMinBinaryTree.cpp primForMinBinaryTree.h MatchStringName.cpp MatchStringName.h TwoSum.cpp TwoSum.h firstMissingPossitive.cpp)
+# add_executable(dataStructHomeworks Solution.cpp OrthogonalList.cpp OrthogonalList.h lettersCombination.cpp lettersCombination.h backTrackDFS.cpp backTrackDFS.h bfsForMinPath.cpp bfsForMinPath.h primForMinBinaryTree.cpp primForMinBinaryTree.h MatchStringName.cpp MatchStringName.h TwoSum.cpp TwoSum.h firstMissingPossitive.cpp BinSortTree.cpp BinSortTree.h)
+
+add_executable(dataStructHomeworks chapter_9/BinSortTree.cpp chapter_9/BinSortTree.h)

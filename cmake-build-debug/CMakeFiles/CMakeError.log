@@ -1,0 +1,79 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/asus/CLionProjects/dataStructHomeworks/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_9ae93/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_9ae93.dir\build.make CMakeFiles/cmTC_9ae93.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/asus/CLionProjects/dataStructHomeworks/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ae93.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_9ae93.dir\testCCompiler.c.obj   -c C:\Users\asus\CLionProjects\dataStructHomeworks\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+gcc.exe: error: CreateProcess: No such file or directory
+CMakeFiles\cmTC_9ae93.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_9ae93.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_9ae93.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/asus/CLionProjects/dataStructHomeworks/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_9ae93/fast' failed
+mingw32-make.exe: *** [cmTC_9ae93/fast] Error 2
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/asus/CLionProjects/dataStructHomeworks/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_15e28/fast && C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_15e28.dir\build.make CMakeFiles/cmTC_15e28.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/asus/CLionProjects/dataStructHomeworks/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15e28.dir/CMakeCXXCompilerABI.cpp.obj
+C:\MinGW\bin\g++.exe    -v -o CMakeFiles\cmTC_15e28.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\g++.exe
+Target: mingw32
+Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+Thread model: win32
+gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_15e28.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/6.3.0/ C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\cmTC_15e28.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\asus\AppData\Local\Temp\ccrkTbQH.s
+GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+warning: MPC header version 1.0.2 differs from library version 1.0.3.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/6.3.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++
+ c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32
+ c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward
+ c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed
+End of search list.
+GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+warning: MPC header version 1.0.2 differs from library version 1.0.3.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: af09a87986453bf79da3565f33c7648f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_15e28.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\cmTC_15e28.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\asus\AppData\Local\Temp\ccrkTbQH.s
+GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_15e28.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+Linking CXX executable cmTC_15e28.exe
+"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_15e28.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_15e28.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_15e28.dir/objects.a @CMakeFiles\cmTC_15e28.dir\objects1.rsp
+C:\MinGW\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_15e28.dir/objects.a -Wl,--no-whole-archive  -o cmTC_15e28.exe -Wl,--out-implib,libcmTC_15e28.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Error running link command: 鎷掔粷璁块棶銆?CMakeFiles\cmTC_15e28.dir\build.make:86: recipe for target 'cmTC_15e28.exe' failed
+mingw32-make.exe[1]: *** [cmTC_15e28.exe] Error 2
+mingw32-make.exe[1]: Leaving directory 'C:/Users/asus/CLionProjects/dataStructHomeworks/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_15e28/fast' failed
+mingw32-make.exe: *** [cmTC_15e28/fast] Error 2
+
+
+
+

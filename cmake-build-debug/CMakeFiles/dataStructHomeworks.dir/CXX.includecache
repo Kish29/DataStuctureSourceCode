@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/asus/CLionProjects/dataStructHomeworks/BinSortTree.cpp
+BinSortTree.h
+C:/Users/asus/CLionProjects/dataStructHomeworks/BinSortTree.h
+iostream
+C:/Users/asus/CLionProjects/dataStructHomeworks/iostream
+
+C:/Users/asus/CLionProjects/dataStructHomeworks/BinSortTree.h
+
